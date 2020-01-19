@@ -62,7 +62,7 @@ public abstract class PlayerManager<P> extends Manager<UUID, P> implements Liste
 	{
 		UUID uniquieId = e.getUniqueId();
 		String username = e.getName();
-		InetAddress ipAddress =e.getAddress();
+		InetAddress ipAddress = e.getAddress();
 		
 		this.registerPlayer(uniquieId, username, ipAddress);
 	}

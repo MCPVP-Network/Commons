@@ -51,9 +51,13 @@ public class MCPlayer extends SimpleMCPlayer
 		String username = player.getName();
 		return username;
 	}
-	
+
+
+
 	public Player getPlayer()
 	{
 		return Bukkit.getPlayer(this.getUniquieId());
 	}
+
+
 }
